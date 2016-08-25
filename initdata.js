@@ -7,10 +7,6 @@ MongoClient.connect('mongodb://localhost:27017/test', function(err, db) {
 
     var collection = db.collection('events');
 
-    collection.find({}).toArray(function(err, docs) {
-        console.log(docs);
-    });
-
     collection.count({}).then(function(res){
 
         if(res > 0){
