@@ -2,9 +2,7 @@
 
 How to run
 
-npm install
-
-npm initdata
-
-npm start
+*npm install
+*npm run-script initdata
+*npm start
 
